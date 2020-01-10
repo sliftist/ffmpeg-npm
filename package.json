@@ -1,7 +1,7 @@
 {
-    "name": "ffmpeg",
+    "name": "ffmpeg-npm",
     "version": "0.0.0",
-    "description": "Binary publish of ffmpeg.",
+    "description": "Binary publish of ffmpeg-npm.",
     "main": "index.js",
     "binaryNames": [
         "ffmpeg"
@@ -9,6 +9,7 @@
     "additionalFiles": [],
     "author": "sliftist <sliftist@gmail.com>",
     "bin": {
+        "ffmpeg-npm": "ffmpeg.js",
         "ffmpeg": "ffmpeg.js"
     },
     "files": [
