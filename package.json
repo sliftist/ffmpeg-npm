@@ -1,6 +1,6 @@
 {
     "name": "ffmpeg-npm",
-    "version": "0.0.1",
+    "version": "0.0.2",
     "description": "Binary publish of ffmpeg-npm.",
     "main": "index.js",
     "binaryNames": [
@@ -19,5 +19,7 @@
         "index.js",
         "index.d.ts"
     ],
-    "repository": "git@github.com:sliftist/ffmpeg-npm.git"
+    "repository": "git@github.com:sliftist/ffmpeg-npm.git",
+    "versionCommand": true,
+    "urlSource": true
 }
