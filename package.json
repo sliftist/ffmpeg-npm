@@ -1,0 +1,21 @@
+{
+    "name": "ffmpeg",
+    "version": "0.0.0",
+    "description": "Binary publish of ffmpeg.",
+    "main": "index.js",
+    "binaryNames": [
+        "ffmpeg"
+    ],
+    "additionalFiles": [],
+    "author": "sliftist <sliftist@gmail.com>",
+    "bin": {
+        "ffmpeg": "ffmpeg.js"
+    },
+    "files": [
+        "sources.js",
+        "README.md",
+        "ffmpeg.js",
+        "index.js",
+        "index.d.ts"
+    ]
+}

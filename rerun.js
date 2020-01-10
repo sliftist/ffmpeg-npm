@@ -1,0 +1,2 @@
+let args = ["C:/Users/quent/AppData/Local/Yarn/Data/global/node_modules/binpub/index.js"].concat(JSON.parse(require("fs").readFileSync("./rerun.json")));
+require("child_process").execFileSync("node", args, { stdio: "inherit" });
