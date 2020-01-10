@@ -1,1 +1,1 @@
-["init","ffmpeg-npm","--bins","ffmpeg","--versionCommand","-version","--showArgs"]
+["init","ffmpeg-npm","--bins","ffmpeg","--versionCommand","-version","--dontPublish","--showArgs"]
